@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: endstone-jwtpa
+Version: 1.0.0
+Summary: JWTpa - Teleport request (TPA) plugin for EndstoneMC servers
+Author: JWDev
+License-Expression: MIT
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: endstone>=0.10.0
+Requires-Dist: aiosqlite>=0.20.0
+Requires-Dist: pyyaml>=6.0
+Dynamic: license-file
+
+# JWTpa
+
+A robust asynchronous teleport request plugin for Endstone.
+
+## Features
+- `/tpa` - Request teleport to a player.
+- `/tpahere` - Request player to teleport to you.
+- `/tpaccept` - Accept teleport request.
+- `/tpdeny` - Decline teleport request.
+- `/tpcancel` - Cancel your teleport request.
+
+## Commands
+- `/tpa <player: string>`
+- `/tpahere <player: string>`
+- `/tpaccept` (aliases: `/tpaaccept`, `/tpac`)
+- `/tpdeny` (aliases: `/tpadeny`, `/tpad`)
+- `/tpcancel`

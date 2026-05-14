@@ -1,0 +1,30 @@
+# JWTpa Messages
+prefix: "&6&l[JWTpa]&r "
+
+# General
+player-not-found: "{prefix}&cPlayer '{player}' not found."
+player-only: "{prefix}&cThis command can only be used by players."
+self-teleport: "{prefix}&cYou cannot teleport to yourself."
+error-generic: "{prefix}&cAn internal error occurred. Please try again."
+no-permission: "{prefix}&cYou do not have permission to do that."
+
+# Usage
+tpa-usage: "&c/tpa <player>"
+tpahere-usage: "&c/tpahere <player>"
+
+# TPA Request
+tpa-sent: "{prefix}&aYou sent a teleport request to {player}."
+tpa-received: "{prefix}&a{player} would like to teleport to you."
+tpahere-received: "{prefix}&a{player} would like you to teleport to them."
+tpa-type-accept: "&eType &a/tpaccept&e to accept, &c/tpdeny&e to deny."
+tpa-timeout-info: "&7Request expires in {seconds} seconds."
+tpa-already-sent: "{prefix}&cYou already have a pending request to {player}."
+
+# TPA Response
+tpa-no-request: "{prefix}&cNo pending teleport request."
+tpa-accepted: "{prefix}&aTeleport request accepted!"
+tpa-accepted-auto: "{prefix}&aTeleport request auto-accepted (teleport enabled)."
+tpa-declined: "{prefix}&cTeleport request declined."
+tpa-cancelled: "{prefix}&cTeleport request cancelled."
+tpa-expired: "{prefix}&cYour teleport request expired."
+tpa-requester-offline: "{prefix}&cThe requester is no longer online."
